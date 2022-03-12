@@ -4,12 +4,19 @@ table, th, td {
     padding: 10px;
     height: auto;
     width: 30px;
+    border-style: dashed;
+    border-spacing: 15px;
+    border-color: #0B0B45;
+}
+table {
+    border-width: 5px;
+    border-style: double !important;
 }
 th {
-    background-color: white;
+    background-color: #d3d0ff;
 }
 tr:nth-child(even) {
-    background-color: #AEBCC4;
+    background-color: #f1f9ff;
 }
 .img {
     width: 100%;
@@ -18,10 +25,14 @@ tr:nth-child(even) {
 .title {
     font-size: 40px;
     color: #0B0B45;
-    background-color: none;
+    background-color: #bfe4fa;
 }
 .header{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    color: #0B0B45;
+}
+.small-col{
+    max-width: 30px;
 }
